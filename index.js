@@ -23,7 +23,9 @@ return --n;
 }
 
 function makeInt(n){
-toString(n);
-parseInt(n, 10);
-return n; 
+return parseInt(n,10);  
+}
+
+function preserceDecimal(n){ 
+return parseFloat(n); 
 }
